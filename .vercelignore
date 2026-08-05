@@ -1,0 +1,17 @@
+# Dependencies and generated output
+node_modules
+.next
+out
+*.log
+*.tsbuildinfo
+
+# Local and repository-only files
+.git
+.github
+.vscode
+.vercel
+README.md
+
+# Never upload local environment files
+.env*
+!.env.example
