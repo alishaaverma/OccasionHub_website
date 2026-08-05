@@ -45,7 +45,7 @@ export default function BookingForm({
         <label>
           <span>Occasion</span>
           <select name="occasion" defaultValue={titleCaseSlug(defaultOccasion)} required>
-            <option value="" disabled>Choose an occasion</option>
+            <option value="" disabled>Choose an occasion list</option>
             {occasions.map((occasion) => <option key={occasion.slug}>{occasion.name}</option>)}
           </select>
         </label>
