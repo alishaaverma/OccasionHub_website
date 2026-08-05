@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+.env*
+!.env.example
+.vscode/
+
+# Files from the previous Django version
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
