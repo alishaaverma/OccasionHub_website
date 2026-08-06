@@ -29,6 +29,8 @@ The repository includes an automated workflow at `.github/workflows/vercel-deplo
 - pushes to `main` create production deployments;
 - either environment can also be deployed manually from the Actions tab.
 
+Each deployment job explicitly links the checked-out directory to the configured Vercel project before pulling its environment. This keeps CI independent of the ignored local `.vercel` directory.
+
 ### One-time setup
 
 1. Create or select a project in the [Vercel dashboard](https://vercel.com/new).
