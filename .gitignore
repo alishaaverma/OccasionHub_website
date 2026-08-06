@@ -5,6 +5,7 @@ out/
 .env*
 !.env.example
 .vscode/
+.public/
 
 # Files from the previous Django version
 venv/
