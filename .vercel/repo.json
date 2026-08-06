@@ -1,0 +1,11 @@
+{
+  "remoteName": "origin",
+  "projects": [
+    {
+      "id": "prj_iLPZ9s13DPP3GNwOCtXNY31CMgm0",
+      "name": "occasion-hub-website",
+      "directory": ".",
+      "orgId": "team_lxEjh93vV1X4dCRhUPQGlZSQ"
+    }
+  ]
+}
